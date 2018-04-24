@@ -10,6 +10,7 @@
 			<li><strong>Audience:</strong>&nbsp;This site would be viewed from people across the world who wish to travel. It can be professionals, families, solo travelers, or groups. Anyone with a passion to travel.</li>
 			<li><strong>Goal:</strong>&nbsp;To increase exposure for travel outside of the USA for individuals.</li>
 		</ol>
+		<img src="cosby-4.jpg">
 		<h1>Persona</h1>
 		<ul>
 			<li><strong>Name:</strong> Joan Stallion</li>
@@ -18,7 +19,7 @@
 			<li><strong>Job:</strong> Nonprofit Executive Director</li>
 			<li><strong>Relevant technology:</strong> Macbook Pro, Iphone 10 Plus</li>
 			<li><strong>Behaviors and Attitudes:</strong> Joan loves public speaking, advocating for the community, and loves traveling the world. She enjoys meditation, and dance, and lives life day by day.</li>
-			<li><strong>Scenario:</strong></li>
+			<li><strong>Scenario:</strong>Joan is in search of a site she can use to easily book her next vacation with ease. </li>
 			<li><strong>Goals:</strong> Easily navigate throughout the site. Have ease of creating an account.</li>
 		</ul>
 	</head>
