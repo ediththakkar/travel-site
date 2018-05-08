@@ -35,3 +35,6 @@ Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/p
 
 #### Edits &amp; Suggestions
 - Correct all HTML errors. Use the [W3Validator](https://validator.w3.org/).
+
+#### Milestone 2a Updated Feedback
+Thanks for making the corrections to your HTML - it's looking much better! Your Milestone 2a now passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
