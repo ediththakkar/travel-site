@@ -25,9 +25,11 @@
 		<h2>Wireframes</h2>
 		<ul>
 		<li><strong>Mobile Layout</strong></li>
-		<img src="Mobilesite.png">
-			<li><strong>Full Screen Layout</strong></li>
 		</ul>
-		<img src="Website.png" alt="Bold">
+		<img src="Mobilesite.png" alt="mobile version">
+		<ul>
+		<li><strong>Full Screen Layout</strong></li>
+		</ul>
+		<img src="Website.png" alt="Wireframe Website version">
 	</body>
 </html>
