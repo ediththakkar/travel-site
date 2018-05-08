@@ -17,3 +17,21 @@ Your Milestone 1 passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/pe
 - Your `<head>` tag is not closed properly - and should be closed just below line 5, not on line 24.
 - Watch your indentation - it's off.
 - Line 13: This `<img>` tag should link to an image file, not milestone-1.php. 
+
+### Milestone 2a Feedback
+Nice job with the wireframes and content strategy - your design ideas and overall direction for this project are nicely defined. There is room for more detail in the Content Strategy given the amount of detail in the wireframes, but this is a good start. The page design is ambitious, and after reviewing the code you've done here and on the Bootstrap Challenge I am concerned that you need much more practice before you can effectively build something this complex.
+
+The HTML structure is incorrect - in a very similar way to the errors that I saw in Milestone 1. I see evidence of poor copy/paste, missing required HTML elements, and HTML tags that are not nested, indented, or opened/closed properly. You need more practice. Please start using the [W3Validator](https://validator.w3.org/) to check your HTML code. I'm concerned because you are having such difficulty with very basic HTML that you will not be able to successfully create the intricate layout design you've created in the wireframes. I strongly suggest simplifying your design ideas until you are able to successfully complete the Bootstrap Challenge perfectly.
+
+I see many differences between the Desktop and Mobile versions of the wireframes, and I'm not clear whether this is intentional or not (it's not specified in the Content Strategy). The entire section above About Us on desktop is missing on mobile. Again, I don't know if this is a mistake or intentional.
+
+The way you have the Travel section designed here will require a totally different version for desktop than for mobile. I suggest simplifying your plan here and making one version that is _responsive_ instead. You can create a custom map using the [Google My Maps API](https://www.google.com/maps/about/mymaps/) and embed it into your HTML. You'll need to read the official documentation for instructions.
+
+Here is the official documentation for the Facebook like button: https://developers.facebook.com/docs/plugins/like-button. It's easy to use. I see a YouTube subcribe button as well. These elements aren't discussed in the Content Strategy (they should be) - but the YouTube subscribe button instructions are here: https://developers.google.com/youtube/youtube_subscribe_button.
+
+Again, I recommend you continue to practice your HTML and Bootstrap skills before beginning to build your project. Simplify your plan where needed. Please remove `style.css` and `contactform.html` from your project - these files do not belong here. **We'll be building PWP in a file named index.php inside of /public_html**. Please note that no frontend-facing site files should live outside of the /public_html directory. Remember use the directory structure that is outlined for this project, and keep an organized and standards-compliant directory structure to house all images, JavaScript, CSS, etc. We are done with the /documentation directory for now.
+
+Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/) due to code errors. Correct all HTML code errors (use the [W3Validator](https://validator.w3.org/)) by Wed 5/9 8:00am and I'll bump your grade to [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+#### Edits &amp; Suggestions
+- Correct all HTML errors. Use the [W3Validator](https://validator.w3.org/).
