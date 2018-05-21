@@ -1,0 +1,33 @@
+body{
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+
+.nav{
+	height: 100px;
+	width: 400px;
+}
+
+body {
+	background: url(../images/762210.jpg) no-repeat center top scroll;
+	background-size: cover;
+	background-image: url("../images/762210.jpg");
+
+}
+
+.navbar {
+	padding: 1px;
+}
+
+body{
+	margin:0;
+	padding:0;
+	height: 120%;
+	width: 100%;
+}
+
+nav{
+	float: right;
+	text-align: right;
+	display: inline-block;
+}
