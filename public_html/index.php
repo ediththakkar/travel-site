@@ -24,16 +24,6 @@
 
 		<!--Navigation style-->
 <style>
-	body {
-		margin: 0;
-		padding:0;
-	}
-
-	nav{
-		width: 100%;
-		background: darkkhaki;
-		overflow: visible;
-	}
 
 	ul{
 		padding:0;
@@ -57,15 +47,26 @@
 	}
 
 	nav a:hover{
-		background: gold;
+		background: tan;
 		transition: 0.5s;
 		text-transform: uppercase ;
 		text-align: right;
 	}
 
+	nav{
+		width:100%;
+		background: darkkhaki;
+		overflow: visible;
+	}
+
+	input[type=text],input[type-email],textarea{display: flex; -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; width: 100%;}
+
 </style>
 		<!--Navigation bar-->
-		<body data-spy="scroll" data-target='.navbar' data-offset='50'>
+		<body
+			<div class style="text-align: center" data-spy="scroll" data-target='.navbar' data-offset='50'>
 			<nav class="navbar navbar-expand-sm bg dark navbar-dark sticky-top">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a href="#HOME" class="nav-link active">HOME</a></li>
@@ -83,7 +84,7 @@
 
 	<div id="HOME" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
 		<h1>HOME</h1>
-		<p>Welcome to our site Travel Track. </p>
+		<p>Welcome to Travel track. Travel track is an informational travel site where you can find ideas for your next out of country vacation. Where your able to not only find suggestions, but are able to get connected with tour guides, and host families</p>
 	</div>
 
 			<br>
@@ -96,7 +97,7 @@
 			<!--About Us section-->
 	<div id="ABOUT US" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
 		<h1>ABOUT US</h1>
-		<p>r3r3r3r3r23r32r4fdsfrgrgwef</p>
+		<p>Travel Track was created with an idea of coming up with ways for travelers to get recommendations to fuel their travel desires. Not only are they recommended places to travel to but are also given resources to help them manage their travels more easily</p>
 	</div>
 
 			<br>
@@ -109,7 +110,7 @@
 			<!--Travel section-->
 	<div id="TRAVEL" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
 		<h1>TRAVEL</h1>
-		<p>r3r3r3r3r23r32r4fdsfrgrgwef</p>
+		<p>Where would you like to travel to? To Asia, South America, Africa, or maybe Europe?</p>
 	</div>
 
 			<br>
@@ -125,6 +126,26 @@
 		<p>r3r3r3r3r23r32r4fdsfrgrgwef</p>
 	</div>
 </body>
+<body>
+
+
+	<div id="glob-content">
+
+		<div id="title"></div>
+
+		<div id="form_content">
+
+			<form>
+				<input type="text" name="name" placeholder="Name" />
+				<input type="email" name="email" placeholder="Email" />
+				<input type="text" name="phone" placeholder="Phone" />
+				<textarea name="message" placeholder="Message" ></textarea>
+				<input type="submit" name="send" value="send" />
+
+			</form>
+		</div>
+
+	</div>
 
 		<br>
 		<br>
