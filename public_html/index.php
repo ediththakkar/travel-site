@@ -62,6 +62,7 @@
 	input[type=text],input[type-email],textarea{display: flex; -webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box; width: 100%;}
+	div#glob_content{ background-color: goldenrod; max-width: 450}
 
 </style>
 		<!--Navigation bar-->
@@ -123,7 +124,7 @@
 			<!--Contact Us section-->
 	<div id="CONTACT US" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
 		<h1>Contact Us</h1>
-		<p>r3r3r3r3r23r32r4fdsfrgrgwef</p>
+		<p>Chocolate cake caramels croissant topping chocolate bar bonbon. Oat cake lollipop jelly beans marshmallow biscuit. Toffee brownie lollipop biscuit sweet roll biscuit. Tart gummies tart. Pudding icing toffee marshmallow jelly-o. Jelly beans donut halvah jelly beans chocolate toffee bear claw pie. Dragée cotton candy wafer candy biscuit pastry soufflé sugar plum cotton candy. Soufflé muffin apple pie. Pie pie dessert halvah candy tart cheesecake. Bear claw cupcake pie cheesecake cookie toffee ice cream apple pie. Fruitcake cake pie fruitcake jelly pudding liquorice caramels. Chocolate bar sweet roll biscuit bear claw sweet. Sweet ice cream macaroon candy canes tiramisu.</p>
 	</div>
 </body>
 <body>
