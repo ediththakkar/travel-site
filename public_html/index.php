@@ -54,32 +54,28 @@
 		<div id="slides" class="carousel slide" data-ride="carousel">
 			<ul class="carousel-indicators">
 				<li data-target="#slides" data-slide-to="0" class="active"></li>
-				<li data-target="#slides" data-slide-to="1"></li>
-				<li data-target="#slides" data-slide-to="2"></li>
 			</ul>
 			<div class="carousel-inner">
-				<div class="carousel-item">
-					<img src="images/city.jpg">
-				</div>
-				<div class="carousel-inner">
-					<div class="carousel-item">
-						<img src="images/ocean.jpg.jpg">
-					</div>
-					<div class="carousel-inner">
-						<div class="carousel-item">
-							<img src="images/trees.jpg.jpg">
-						</div>
+				<div class="carousel-item active">
+					<img src="images/ocean.jpg">
+					<div class="carousel-caption">
+						<h1 class="display-2">Welcome to Travel Track</h1>
+						<h3>Nuture your Travel spirit</h3>
 					</div>
 				</div>
+			</div>
 
+<!--------------------Welcome-------------------------------->
+	<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="About Us"></h1>
+		</div>
+	</div>
+	</div>
 
 <!--------------------- Home section ----------------------------------->
-
-	<div id="HOME" class="container-fluid" style="padding-top:70px;padding-bottom:70px"></div>
-		<h1>HOME</h1>
-		<p>Welcome to Travel track. Travel track is an informational travel site where you can find ideas for your next out of country vacation. Where your able to not only find suggestions, but are able to get connected with tour guides, and host families</p>
-
-			<!--About Us section-->
+				<!--About Us section-->
 	<div id="ABOUT US" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
 		<h1>ABOUT US</h1>
 		<p>Travel Track was created with an idea of coming up with ways for travelers to get recommendations to fuel their travel desires. Not only are they recommended places to travel to but are also given resources to help them manage their travels more easily</p>
