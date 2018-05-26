@@ -50,6 +50,29 @@
 			</div>
 		</nav>
 
+		<!--------------------- Slider----------------------------------->
+		<div id="slides" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators">
+				<li data-target="#slides" data-slide-to="0" class="active"></li>
+				<li data-target="#slides" data-slide-to="1"></li>
+				<li data-target="#slides" data-slide-to="2"></li>
+			</ul>
+			<div class="carousel-inner">
+				<div class="carousel-item">
+					<img src="images/city.jpg">
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item">
+						<img src="images/ocean.jpg.jpg">
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item">
+							<img src="images/trees.jpg.jpg">
+						</div>
+					</div>
+				</div>
+
+
 <!--------------------- Home section ----------------------------------->
 
 	<div id="HOME" class="container-fluid" style="padding-top:70px;padding-bottom:70px"></div>
