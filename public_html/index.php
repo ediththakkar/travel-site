@@ -114,58 +114,58 @@
 		<p>Chupa chups tootsie roll marzipan. Cupcake chupa chups marshmallow. Tootsie roll tootsie roll dragée. Dessert ice cream donut cotton candy. Cupcake brownie marshmallow. Danish bonbon lemon drops. Dessert tart macaroon sweet roll chocolate bonbon icing pie. Pudding icing chocolate cake chocolate cake bear claw tootsie roll. Apple pie sesame snaps chupa chups jelly beans. Brownie macaroon jelly-o caramels brownie marzipan gingerbread ice cream. Danish tootsie roll chocolate cake jujubes marshmallow muffin. Bear claw muffin cupcake toffee marshmallow tart bonbon gummies biscuit.</p>
 	</div>
 
-<section>
-	<div class="container">
-		<div class="container gallery-container">
-			<h1 class="text-center">Places to Visit</h1>
-			<p class="page-description text-center">North America-South America-Asia-Europe</p>
-			<div class="tz-gallery">
-				<div class="row mb-3">
-					<div class="col-md-4">
-						<h3>Europe</h3>
-						<div class="card">
-							<a class="lightbox" href="images/europe-travel-landmarks-vector-illustration-74315910.jpg">
-								<img src="images/europe-travel-landmarks-vector-illustration-74315910.jpg" alt="Europe" class="card-img-top">
-							</a>
+		<section>
+			<div class="container">
+				<div class="container gallery-container">
+					<h1 class="text-center">Places to Visit</h1>
+					<p class="page-description text-center">North America-South America-Asia-Europe</p>
+					<div class="tz-gallery">
+						<div class="row mb-3">
+							<div class="col-md-4">
+								<h3>Europe</h3>
+								<div class="card">
+									<a class="lightbox" href="images/europe-travel-landmarks-vector-illustration-74315910.jpg">
+										<img src="images/europe-travel-landmarks-vector-illustration-74315910.jpg" alt="Europe" class="card-img-top">
+									</a>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<h3>North America</h3>
+								<div class="card">
+									<a class="lightbox" href="images/vector-north-america-travel-flat-format-eps-colors-49842440.jpg">
+										<img src="images/vector-north-america-travel-flat-format-eps-colors-49842440.jpg" alt="North America" class="card-img-top">
+									</a>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<h3>South America</h3>
+								<div class="card">
+									<a class="lightbox" href="images/vector-south-america-travel-latin-set-cultural-flat-color-eps-49988656.jpg">
+										<img src="images/vector-south-america-travel-latin-set-cultural-flat-color-eps-49988656.jpg" alt="South Amercica" class="card-img-top">
+									</a>
+								</div>
+							</div>
 						</div>
+
+						<div class="row">
+							<div class="col-md-4">
+								<h3>Asia</h3>
+								<div class="card">
+									<a class="lightbox" href="images/935380352.jpg">
+										<img src="images/935380352.jpg" alt="Asia" class="card-img-top">
+									</a>
+								</div>
+							</div>
+						</div>
+
 					</div>
 
-					<div class="col-md-4">
-						<h3>North America</h3>
-						<div class="card">
-							<a class="lightbox" href="images/vector-north-america-travel-flat-format-eps-colors-49842440.jpg">
-								<img src="images/vector-north-america-travel-flat-format-eps-colors-49842440.jpg" alt="North America" class="card-img-top">
-							</a>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<h3>South America</h3>
-						<div class="card">
-							<a class="lightbox" href="images/vector-south-america-travel-latin-set-cultural-flat-color-eps-49988656.jpg">
-								<img src="images/vector-south-america-travel-latin-set-cultural-flat-color-eps-49988656.jpg" alt="South Amercica" class="card-img-top">
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-4">
-						<h3>Asia</h3>
-						<div class="card">
-							<a class="lightbox" href="images/935380352.jpg">
-								<img src="images/935380352.jpg" alt="Asia" class="card-img-top">
-							</a>
-						</div>
-					</div>
 				</div>
 
 			</div>
-
-		</div>
-
-	</div>
-</section>
+		</section>
 
 
 			<!--Contact Us section-->
