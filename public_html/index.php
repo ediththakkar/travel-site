@@ -98,29 +98,29 @@
 					</div>
 				</div>
 
-		<div class="carousel-item">
-			<img class="d-block w-100" src="carousel/mountains.jpg" alt="Fourth slide">
-			<div class="carousel-caption d-none d-md-block">
-				<h2>-Cultureur</h2>
-				<p>I travel not to cross countries off a list, but to ignite passionate affairs with destinations.</p>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="carousel/mountains.jpg" alt="Fourth slide">
+				<div class="carousel-caption d-none d-md-block">
+					<h2>-Cultureur</h2>
+					<p>I travel not to cross countries off a list, but to ignite passionate affairs with destinations.</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="carousel-item">
-			<img class="d-block w-100" src="carousel/ocean.jpg" alt="Fifth slide">
-			<div class="carousel-caption d-none d-md-block">
-				<h2>-Lao Tzu</h2>
-				<p>The journey of a thousand miles begins with a single step.</p>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="carousel/ocean.jpg" alt="Fifth slide">
+				<div class="carousel-caption d-none d-md-block">
+					<h2>-Lao Tzu</h2>
+					<p>The journey of a thousand miles begins with a single step.</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="carousel-item">
-			<img class="d-block w-100" src="carousel/pexels-photo-457937.jpg" alt="Sixth slide">
-			<div class="carousel-caption d-none d-md-block">
-				<h2>-Euripides</h2>
-				<p>Experience, travel these are as education in themselves.</p>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="carousel/pexels-photo-457937.jpg" alt="Sixth slide">
+				<div class="carousel-caption d-none d-md-block">
+					<h2>-Euripides</h2>
+					<p>Experience, travel these are as education in themselves.</p>
+				</div>
 			</div>
-		</div>
 		</div>
 	</body>
 
