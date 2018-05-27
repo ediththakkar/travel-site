@@ -6,12 +6,30 @@
 		<title>Edith Thakkar PWP</title>
 
 		<!--BOOTSTRAP CSS-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 		<!--jQuery first, then popper.js, then Bootstrap JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"</script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+		<!--favicon-->
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+		<link rel="manifest" href="images/site.webmanifest">
+		<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#0a6cd9">
+		<meta name="msapplication-TileColor" content="#2d89ef">
+		<meta name="theme-color" content="#ffffff">
 
 		<!--Fonts-->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -50,7 +68,7 @@
 			</div>
 		</nav>
 
-		<!--------------------- Slider----------------------------------->
+		<!--------------------- Slider-----------------------------------
 		<div id="slides" class="carousel slide" data-ride="carousel">
 			<ul class="carousel-indicators">
 				<li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -63,16 +81,33 @@
 						<h3>Nuture your Travel spirit</h3>
 					</div>
 				</div>
-			</div>
+			</div>-->
 
-<!--------------------Welcome-------------------------------->
-	<div class="container-fluid padding">
-	<div class="row welcome text-center">
-		<div class="col-12">
-			<h1 class="About Us"></h1>
+
+		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="images/ocean.jpg" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="images/city.jpg" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="images/trees.jpg" alt="Third slide">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
-	</div>
-	</div>
+
+
+
 
 <!--------------------- Home section ----------------------------------->
 				<!--About Us section-->
@@ -89,7 +124,6 @@
 	</div>
 
 			<!--Contact Us section-->
-
 				<section>
 					<div class="container">
 						<div class="form-wrapper">
@@ -116,7 +150,7 @@
 									<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
 								</div>
 
-								<button type="submit">Send!</button>
+								<button type="submit">Send</button>
 								<button type="reset">Reset</button>
 							</form>
 						</div>
