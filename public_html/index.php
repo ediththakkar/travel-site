@@ -42,10 +42,10 @@
 	</head>
 	<body>
 
-<!--------------------- Navigation bar ----------------------------------->
+		<!--Navigation Bar-->
 		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 			<div class="container-fluid">
-				<a class="nav-brand" href="#"><img src="images/LogoMakr_7iiiAg%20copy2.png"></a>
+				<a class="nav-brand" href="#"><img src="images/LogoMakr_7iiiAg%20copy2.png" alt="logo"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 						  data-target="#navbarResponsive">
 					<span class="navbar-toggler-icon"></span>
@@ -64,26 +64,12 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#">Contact Us</a>
 						</li>
+					</ul>
 				</div>
 			</div>
 		</nav>
 
-		<!--------------------- Slider-----------------------------------
-		<div id="slides" class="carousel slide" data-ride="carousel">
-			<ul class="carousel-indicators">
-				<li data-target="#slides" data-slide-to="0" class="active"></li>
-			</ul>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="images/ocean.jpg">
-					<div class="carousel-caption">
-						<h1 class="display-2">Welcome to Travel Track</h1>
-						<h3>Nuture your Travel spirit</h3>
-					</div>
-				</div>
-			</div>-->
-
-
+		<!--Carousel-->
 		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -109,9 +95,9 @@
 
 
 
-<!--------------------- Home section ----------------------------------->
+		<!--Home section-->
 				<!--About Us section-->
-	<div id="ABOUT US" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+	<div id="ABOUTUS" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
 		<h1>ABOUT US</h1>
 		<p>Travel Track was created with an idea of coming up with ways for travelers to get recommendations to fuel their travel desires. Not only are they recommended places to travel to but are also given resources to help them manage their travels more easily</p>
 	</div>
@@ -125,7 +111,7 @@
 
 			<!--Contact Us section-->
 				<section>
-					<div class="container">
+					<div class="container-fluid">
 						<div class="form-wrapper">
 							<h2>Contact Us Form</h2>
 							<form>
@@ -136,7 +122,7 @@
 								</div>
 
 								<div>
-									<label for="emailEmail">Email</label>
+									<label for="email">Email</label>
 									<input type="email" name="email" id="email"/>
 								</div>
 
@@ -150,12 +136,22 @@
 									<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
 								</div>
 
+								<!--ReCAPTCHA-->
+								<div class="g-recaptcha" data-sitekey="6Lenq1sUAAAAAIX3drXmxeD6xRdyCn3NZextzU0P"></div>
+
 								<button type="submit">Send</button>
 								<button type="reset">Reset</button>
+
 							</form>
+
+							<!--Error sucess output-->
+							<div class="row">
+								<div class="col-xs-12">
+									<div id="output-area"></div>
+								</div>
+							</div>
 						</div>
-					</div>
+						</div>
 				</section>
-	</section>
 	</body>
 </html>
