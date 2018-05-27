@@ -111,38 +111,46 @@
 
 			<!--Contact Us section-->
 				<section>
-					<div class="container-fluid">
+					<div class="container-fluid bg-info text-white rounded p-0 m-0">
 						<div class="form-wrapper">
-							<h2>Contact Us Form</h2>
-							<form>
+							<div class="row">
+								<div class="col-md-12"></div>
+								<div class="col-md-10 text-left rounded m-3">
+									<h2>Contact Us Form</h2>
+									<form id="contact-form" action="php/mailer.php" method="post">
+									<div class="form-group">
 
-								<div>
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name"/>
+										<div>
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name"/>
+										</div>
+
+										<div>
+											<label for="email">Email</label>
+											<input type="email" name="email" id="email"/>
+										</div>
+
+										<div>
+											<label for="subject">Subject</label>
+											<input type="text" name="subject" id="subject"/>
+										</div>
+
+										<div>
+											<label for="message">Message</label>
+											<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
+										</div>
+
+										<!--ReCAPTCHA-->
+										<div class="g-recaptcha" data-sitekey="6Lenq1sUAAAAAIX3drXmxeD6xRdyCn3NZextzU0P"></div>
+
+										<button type="submit">Send</button>
+										<button type="reset">Reset</button>
+									</div>
+									</form>
 								</div>
+								<div class="col-md-12"></div>
+							</div>
 
-								<div>
-									<label for="email">Email</label>
-									<input type="email" name="email" id="email"/>
-								</div>
-
-								<div>
-									<label for="subject">Subject</label>
-									<input type="text" name="subject" id="subject"/>
-								</div>
-
-								<div>
-									<label for="message">Message</label>
-									<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
-								</div>
-
-								<!--ReCAPTCHA-->
-								<div class="g-recaptcha" data-sitekey="6Lenq1sUAAAAAIX3drXmxeD6xRdyCn3NZextzU0P"></div>
-
-								<button type="submit">Send</button>
-								<button type="reset">Reset</button>
-
-							</form>
 
 							<!--Error sucess output-->
 							<div class="row">
