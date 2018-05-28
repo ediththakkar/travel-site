@@ -1,3 +1,7 @@
 /.idea
 .DS_Store
 /vendor
+**/php/mail-config.php
+.sass-cache
+node_modules
+.saas-cachenode_modules
