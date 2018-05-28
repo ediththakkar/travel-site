@@ -201,55 +201,55 @@
 
 	<!--Contact Us section-->
 	<div id="contactus" class="container-fluid bg-info text-light">
-	<div class="row">
-		<div class="col-md-3"></div>
-		<div class="col-md-6">
-			<h3>Contact Us:</h3>
-			<form id="contact-form" action="php/mailer.php" method="post">
-				<div class="form-group">
-					<label for="name">Name <span class="text-danger">*</span></label>
-					<div class="input-group">
-						<div class="input-group-prepend">
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<h3>Contact Us:</h3>
+				<form id="contact-form" action="php/mailer.php" method="post">
+					<div class="form-group">
+						<label for="name">Name <span class="text-danger">*</span></label>
+						<div class="input-group">
+							<div class="input-group-prepend">
 							<span class="input-group-text">
 								<i class="fa fa-user" aria-hidden="true"></i>
 							</span>
+							</div>
+							<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 						</div>
-						<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 					</div>
-				</div>
-				<div class="form-group">
-					<label for="email">Email <span class="text-danger">*</span></label>
-					<div class="input-group">
-						<div class="input-group-prepend">
+					<div class="form-group">
+						<label for="email">Email <span class="text-danger">*</span></label>
+						<div class="input-group">
+							<div class="input-group-prepend">
 							<span class="input-group-text">
 								<i class="fa fa-envelope" aria-hidden="true"></i>
 							</span>
+							</div>
+							<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 						</div>
-						<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 					</div>
-				</div>
-				<div class="form-group">
-					<label for="subject">Subject</label>
-					<div class="input-group">
-						<div class="input-group-prepend">
+					<div class="form-group">
+						<label for="subject">Subject</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
 							<span class="input-group-text">
 								<i class="fas fa-pencil-alt" aria-hidden="true"></i>
 							</span>
+							</div>
+							<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 						</div>
-						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 					</div>
-				</div>
-				<div class="form-group">
-					<label for="message">Message <span class="text-danger">*</span></label>
-					<div class="input-group">
-						<div class="input-group-prepend">
+					<div class="form-group">
+						<label for="message">Message <span class="text-danger">*</span></label>
+						<div class="input-group">
+							<div class="input-group-prepend">
 							<span class="input-group-text">
 								<i class="fa fa-comment" aria-hidden="true"></i>
 							</span>
+							</div>
+							<textarea class="form-control" rows="5" id="message" name="message" placeholder="(2000 characters max)"></textarea>
 						</div>
-						<textarea class="form-control" rows="5" id="message" name="message" placeholder="(2000 characters max)"></textarea>
 					</div>
-				</div>
 
 				<!-- reCAPTCHA -->
 				<div class="g-recaptcha" data-sitekey="6Lenq1sUAAAAAIX3drXmxeD6xRdyCn3NZextzU0P"></div>
