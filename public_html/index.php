@@ -70,6 +70,8 @@
 			</div>
 		</nav>
 
+		<!--Entered div id so navbar for home would work-->
+		<div id="home"></div>
 		<!--Carousel-->
 		<div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
