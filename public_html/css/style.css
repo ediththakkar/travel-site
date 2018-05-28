@@ -31,6 +31,14 @@ footer {
 	text-align: center;
 }
 
-.div.container{
-	text-align: center;
+/* Small devices*/
+@media (min-width: 576px) and (max-width: 767px)
+{
+/*Medium devices*/
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+/*Larger devices*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+

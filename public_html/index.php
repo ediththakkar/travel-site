@@ -54,16 +54,16 @@
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Home</a>
+							<a class="nav-link" href="#home">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">About Us</a>
+							<a class="nav-link" href="#aboutus">About Us</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Travel</a>
+							<a class="nav-link" href="#travel">Travel</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Contact Us</a>
+							<a class="nav-link" href="#contactus">Contact Us</a>
 						</li>
 					</ul>
 				</div>
@@ -125,28 +125,38 @@
 	</body>
 
 				<!--About Us section-->
-	<div id="ABOUTUS" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+	<div id="aboutus" class="container-fluid">
+		<div class="row">
+			<div class="col m-5">
 		<h1>ABOUT US</h1>
 		<p>Travel Track was created with an idea of coming up with ways for travelers to get recommendations to fuel their travel desires. Not only are they recommended places to travel to but are also given resources to help them manage their travels more easily</p>
 
 		<p>Travel track founders Edith Thakkar, and Vishal Thakkar created travel track as a way to help travelers find resources for traveling abroad such as accomedation suggestions, travel ideas, and so forth.</p>
-	</div>
+			</div>
+			</div>
+			</div>
+
 
 			<!--Travel section-->
-	<div id="TRAVEL" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+	<div id="travel" class="container-fluid">
+		<div class="row">
+		<div class="col m-5">
 		<h1>TRAVEL</h1>
 		<p>Where would you like to travel to? To Asia, South America, Africa, or maybe Europe?</p>
 		<p>Chupa chups tootsie roll marzipan. Cupcake chupa chups marshmallow. Tootsie roll tootsie roll dragée. Dessert ice cream donut cotton candy. Cupcake brownie marshmallow. Danish bonbon lemon drops. Dessert tart macaroon sweet roll chocolate bonbon icing pie. Pudding icing chocolate cake chocolate cake bear claw tootsie roll. Apple pie sesame snaps chupa chups jelly beans. Brownie macaroon jelly-o caramels brownie marzipan gingerbread ice cream. Danish tootsie roll chocolate cake jujubes marshmallow muffin. Bear claw muffin cupcake toffee marshmallow tart bonbon gummies biscuit.</p>
 	</div>
+	</div>
+	</div>
 
+		<!--Places to visit-->
 		<section>
-			<div class="container">
+			<div class="container-fluid">
 				<div class="container gallery-container">
 					<h1 class="text-center">Places to Visit</h1>
 					<p class="page-description text-center">North America-South America-Asia-Europe</p>
 					<div class="tz-gallery">
 						<div class="row mb-3">
-							<div class="col-md-4">
+							<div class="col-md-6">
 								<h3>Europe</h3>
 								<div class="card">
 									<a class="lightbox" href="images/europe-travel-landmarks-vector-illustration-74315910.jpg">
@@ -155,7 +165,7 @@
 								</div>
 							</div>
 
-							<div class="col-md-4">
+							<div class="col-md-6">
 								<h3>North America</h3>
 								<div class="card">
 									<a class="lightbox" href="images/vector-north-america-travel-flat-format-eps-colors-49842440.jpg">
@@ -164,7 +174,7 @@
 								</div>
 							</div>
 
-							<div class="col-md-4">
+							<div class="col-md-6">
 								<h3>South America</h3>
 								<div class="card">
 									<a class="lightbox" href="images/vector-south-america-travel-latin-set-cultural-flat-color-eps-49988656.jpg">
@@ -172,10 +182,8 @@
 									</a>
 								</div>
 							</div>
-						</div>
 
-						<div class="row">
-							<div class="col-md-4">
+							<div class="col-md-6">
 								<h3>Asia</h3>
 								<div class="card">
 									<a class="lightbox" href="images/935380352.jpg">
@@ -183,60 +191,78 @@
 									</a>
 								</div>
 							</div>
-						</div>
-
 					</div>
 
+				</div>
 				</div>
 
 			</div>
 		</section>
 
+	<!--Contact Us section-->
+	<div id="contactus" class="container-fluid bg-info text-light">
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<h3>Contact Us:</h3>
+			<form id="contact-form" action="php/mailer.php" method="post">
+				<div class="form-group">
+					<label for="name">Name <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</span>
+						</div>
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="email">Email <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</span>
+						</div>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="subject">Subject</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="fas fa-pencil-alt" aria-hidden="true"></i>
+							</span>
+						</div>
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="message">Message <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="fa fa-comment" aria-hidden="true"></i>
+							</span>
+						</div>
+						<textarea class="form-control" rows="5" id="message" name="message" placeholder="(2000 characters max)"></textarea>
+					</div>
+				</div>
 
-			<!--Contact Us section-->
-				<section>
-					<div class="container-fluid bg-info text-white rounded p-0 m-0">
-						<div class="form-wrapper">
-							<div class="row">
-								<div class="col-md-12"></div>
-								<div class="col-md-10 text-left rounded m-3">
-									<h2>Contact Us Form</h2>
-									<form id="contact-form" action="php/mailer.php" method="post">
-									<div class="form-group">
+				<!-- reCAPTCHA -->
+				<div class="g-recaptcha" data-sitekey="6Lenq1sUAAAAAIX3drXmxeD6xRdyCn3NZextzU0P"></div>
 
-										<div>
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" placeholder="Name">
-										</div>
+				<button class="btn btn-primary" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+				<button class="btn btn-danger" type="reset"><i class="fa fa-ban"></i> Reset</button>
+			</form>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+</div>
 
-										<div>
-											<label for="email">Email</label>
-											<input type="text" name="email" id="name" placeholder="Email">
-										</div>
-
-										<div>
-											<label for="subject">Subject</label>
-											<input type="text" name="subject" id="name" placeholder="Subject">
-										</div>
-
-										<div>
-											<label for="message">Message</label>
-											<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
-										</div>
-
-										<!--ReCAPTCHA-->
-										<div class="g-recaptcha" data-sitekey="6Lenq1sUAAAAAIX3drXmxeD6xRdyCn3NZextzU0P"></div>
-
-										<button type="submit">Send</button>
-										<button type="reset">Reset</button>
-									</div>
-									</form>
-								</div>
-								<div class="col-md-12"></div>
-							</div>
-
-
-							<!--Error sucess output-->
+	<!--Error sucess output-->
 							<div class="row">
 								<div class="col-xs-12">
 									<div id="output-area"></div>
