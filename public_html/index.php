@@ -35,7 +35,7 @@
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 		<!-- Linked CSS stylesheet-->
-		<link rel="stylesheet" href="css/style.css">
+		<link type="text/css" href="css/style.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.81/baguetteBox.min.css">
 
 		<!-- JavaScript Form Validator -->
@@ -79,10 +79,11 @@
 					<img class="d-block w-100" src="carousel/resort.jpg" alt="First slide">
 					<div class="carousel-caption d-none d-md-block">
 					<h1>Welcome</h1>
-					<p>Unleash your inner travel spirit</p
+					<p>Unleash your inner travel spirit</p>
 					</div>
 				</div>
 				</div>
+		</div>
 
 				<div class="carousel-item">
 					<img class="d-block w-100" src="carousel/lake.jpg" alt="Second slide">
@@ -123,11 +124,10 @@
 					<p>Experience, travel these are as education in themselves.</p>
 				</div>
 			</div>
-		</div>
 	</body>
 
-				<!--About Us section-->
-	<div id="aboutus" class="container-fluid">
+	<!--About Us section-->
+	<div id="aboutus" class="container-fluid bg bg-info">
 		<div class="row">
 			<div class="col m-5">
 		<h1>ABOUT US</h1>
@@ -139,8 +139,9 @@
 			</div>
 
 
+
 			<!--Travel section-->
-	<div id="travel" class="container-fluid">
+	<div id="travel" class="container-fluid bg bg-warning">
 		<div class="row">
 		<div class="col m-5">
 		<h1>TRAVEL</h1>
@@ -152,9 +153,9 @@
 
 		<!--Places to visit-->
 		<section>
-			<div class="container-fluid">
-				<div class="container gallery-container">
-					<h1 class="text-center">Places to Visit</h1>
+			<div class="container">
+				<div class="col gallery-container text-center">
+					<h1>Places to Visit</h1>
 					<p class="page-description text-center">North America-South America-Asia-Europe</p>
 					<div class="tz-gallery">
 						<div class="row mb-3">
@@ -218,7 +219,7 @@
 							</div>
 							<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 						</div>
-					</div>
+
 					<div class="form-group">
 						<label for="email">Email <span class="text-danger">*</span></label>
 						<div class="input-group">
@@ -230,6 +231,7 @@
 							<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 						</div>
 					</div>
+
 					<div class="form-group">
 						<label for="subject">Subject</label>
 						<div class="input-group">
@@ -241,6 +243,7 @@
 							<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 						</div>
 					</div>
+
 					<div class="form-group">
 						<label for="message">Message <span class="text-danger">*</span></label>
 						<div class="input-group">
@@ -250,6 +253,7 @@
 							</span>
 							</div>
 							<textarea class="form-control" rows="5" id="message" name="message" placeholder="(2000 characters max)"></textarea>
+						</div>
 						</div>
 					</div>
 
@@ -264,14 +268,11 @@
 	</div>
 </div>
 
+
 	<!--Error sucess output-->
 							<div class="row">
 								<div class="col-xs-12">
 									<div id="output-area"></div>
 								</div>
 							</div>
-						</div>
-						</div>
-				</section>
-	</body>
 </html>
