@@ -77,7 +77,7 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img class="d-block w-100" src="carousel/resort.jpg" alt="First slide">
-					<div class="carousel-caption d-none d-md-block">
+					<div class="carousel-caption d-none d-md-block lead">
 					<h1>Welcome</h1>
 					<p>Unleash your inner travel spirit</p>
 					</div>
@@ -85,15 +85,15 @@
 
 				<div class="carousel-item">
 					<img class="d-block w-100" src="carousel/lake.jpg" alt="Second slide">
-					<div class="carousel-caption d-none d-md-block">
+					<div class="carousel-caption d-none d-md-block lead">
 						<h2>-Rumi</h2>
-						<p>My soul is from elsewhere, I'm sure of that, & I intend to End up there.</p>
+						<p>My soul is from elsewhere, I'm sure of that & I intend to End up there.</p>
 					</div>
 				</div>
 
 				<div class="carousel-item">
 					<img class="d-block w-100" src="carousel/menton-old-town-harbour-entrance-lighthouse-161098.jpg" alt="Third slide">
-					<div class="carousel-caption d-none d-md-block">
+					<div class="carousel-caption d-none d-md-block lead">
 						<h2>-Seneca</h2>
 						<p>I was not Born for one corner. The whole world is my native land.</p>
 					</div>
@@ -101,7 +101,7 @@
 
 			<div class="carousel-item">
 				<img class="d-block w-100" src="carousel/mountains.jpg" alt="Fourth slide">
-				<div class="carousel-caption d-none d-md-block">
+				<div class="carousel-caption d-none d-md-block lead">
 					<h2>-Cultureur</h2>
 					<p>I travel not to cross countries off a list, but to ignite passionate affairs with destinations.</p>
 				</div>
@@ -109,7 +109,7 @@
 
 			<div class="carousel-item">
 				<img class="d-block w-100" src="carousel/ocean.jpg" alt="Fifth slide">
-				<div class="carousel-caption d-none d-md-block">
+				<div class="carousel-caption d-none d-md-block lead">
 					<h2>-Lao Tzu</h2>
 					<p>The journey of a thousand miles begins with a single step.</p>
 				</div>
@@ -117,7 +117,7 @@
 
 			<div class="carousel-item">
 				<img class="d-block w-100" src="carousel/pexels-photo-457937.jpg" alt="Sixth slide">
-				<div class="carousel-caption d-none d-md-block">
+				<div class="carousel-caption d-none d-md-block lead">
 					<h2>-Euripides</h2>
 					<p>Experience, travel these are as education in themselves.</p>
 				</div>
