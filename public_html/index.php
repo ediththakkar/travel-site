@@ -82,8 +82,6 @@
 					<p>Unleash your inner travel spirit</p>
 					</div>
 				</div>
-				</div>
-		</div>
 
 				<div class="carousel-item">
 					<img class="d-block w-100" src="carousel/lake.jpg" alt="Second slide">
@@ -124,6 +122,8 @@
 					<p>Experience, travel these are as education in themselves.</p>
 				</div>
 			</div>
+			</div>
+		</div>
 	</body>
 
 	<!--About Us section-->
@@ -144,7 +144,7 @@
 	<div id="travel" class="container-fluid bg bg-warning">
 		<div class="row">
 		<div class="col m-5">
-		<h1>TRAVEL</h1>
+		<h1>PLACES TO TRAVEL</h1>
 		<p>Where would you like to travel to? To Asia, South America, Africa, or maybe Europe?</p>
 		<p>Chupa chups tootsie roll marzipan. Cupcake chupa chups marshmallow. Tootsie roll tootsie roll dragée. Dessert ice cream donut cotton candy. Cupcake brownie marshmallow. Danish bonbon lemon drops. Dessert tart macaroon sweet roll chocolate bonbon icing pie. Pudding icing chocolate cake chocolate cake bear claw tootsie roll. Apple pie sesame snaps chupa chups jelly beans. Brownie macaroon jelly-o caramels brownie marzipan gingerbread ice cream. Danish tootsie roll chocolate cake jujubes marshmallow muffin. Bear claw muffin cupcake toffee marshmallow tart bonbon gummies biscuit.</p>
 	</div>
@@ -156,7 +156,7 @@
 			<div class="container">
 				<div class="col gallery-container text-center">
 					<h1>Places to Visit</h1>
-					<p class="page-description text-center">North America-South America-Asia-Europe</p>
+					<p class="page-description text-center">Europe-North America-South America-Asia</p>
 					<div class="tz-gallery">
 						<div class="row mb-3">
 							<div class="col-md-6">
