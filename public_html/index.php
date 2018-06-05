@@ -149,7 +149,7 @@
 		<h1>SUGGESTED PLACES TO VISIT</h1>
 		<p>Where would you like to travel to?</p>
 
-			<h3>INDIA:</h3>
+			<h3>INDIA: </h3>
 			<h3>USA:</h3>
 			<h3>MEXICO:</h3>
 			<h3>CANADA:</h3>
@@ -215,7 +215,7 @@
 		<div class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-6">
-				<h3>Contact Us:</h3>
+				<h1>Contact Us:</h1>
 				<form id="contact-form" action="php/mailer.php" method="post">
 					<div class="form-group">
 						<label for="name">Name <span class="text-danger">*</span></label>
