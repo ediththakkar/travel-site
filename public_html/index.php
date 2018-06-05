@@ -86,32 +86,32 @@
 				<div class="carousel-item">
 					<img class="d-block w-100" src="carousel/lake.jpg" alt="Second slide">
 					<div class="carousel-caption d-none d-md-block lead">
-						<h2>-Rumi</h2>
-						<p>My soul is from elsewhere, I'm sure of that & I intend to End up there.</p>
+						<h2>My soul is from elsewhere, I'm sure of that & I intend to End up there.</h2>
+						<p>-Rumi</p>
 					</div>
 				</div>
 
 				<div class="carousel-item">
 					<img class="d-block w-100" src="carousel/menton-old-town-harbour-entrance-lighthouse-161098.jpg" alt="Third slide">
 					<div class="carousel-caption d-none d-md-block lead">
-						<h2>-Seneca</h2>
-						<p>I was not Born for one corner. The whole world is my native land.</p>
+						<h2>I was not Born for one corner. The whole world is my native land.</h2>
+						<p>-Seneca</p>
 					</div>
 				</div>
 
 			<div class="carousel-item">
 				<img class="d-block w-100" src="carousel/mountains.jpg" alt="Fourth slide">
 				<div class="carousel-caption d-none d-md-block lead">
-					<h2>-Cultureur</h2>
-					<p>I travel not to cross countries off a list, but to ignite passionate affairs with destinations.</p>
+					<h2>I travel not to cross countries off a list, but to ignite passionate affairs with destinations.</h2>
+					<p>-Cultureur</p>
 				</div>
 			</div>
 
 			<div class="carousel-item">
 				<img class="d-block w-100" src="carousel/ocean.jpg" alt="Fifth slide">
 				<div class="carousel-caption d-none d-md-block lead">
-					<h2>-Lao Tzu</h2>
-					<p>The journey of a thousand miles begins with a single step.</p>
+					<h2>The journey of a thousand miles begins with a single step.</h2>
+					<p>-Lao Tzu</p>
 				</div>
 			</div>
 
@@ -133,21 +133,29 @@
 		<h1>ABOUT US</h1>
 		<p>Travel Track was created with an idea of coming up with ways for travelers to get recommendations to fuel their travel desires. Not only are they recommended places to travel to but are also given resources to help them manage their travels more easily</p>
 
-		<p>Travel track founders Edith Thakkar, and Vishal Thakkar created travel track as a way to help travelers find resources for traveling abroad such as accomedation suggestions, travel ideas, and so forth.</p>
+		<p>Travel track founders Edith Thakkar, and Vishal Thakkar created travel track as a way to help travelers find resources for traveling abroad such as accommodation suggestions, travel ideas, and so forth.</p>
+		<p>We have traveled to various parts of the world ranging from North America, South America, Middle east, and Asia.</p>
+		<p>
+			We invite you to contact us to assist you in finding resources for your next trip.
+		</p>
 			</div>
 			</div>
 			</div>
-
-
 
 			<!--Travel section-->
 	<div id="travel" class="container-fluid bg bg-warning">
 		<div class="row">
 		<div class="col m-5">
-		<h1>PLACES TO TRAVEL</h1>
-		<p>Where would you like to travel to? To Asia, South America, Africa, or maybe Europe?</p>
-		<p>Chupa chups tootsie roll marzipan. Cupcake chupa chups marshmallow. Tootsie roll tootsie roll dragée. Dessert ice cream donut cotton candy. Cupcake brownie marshmallow. Danish bonbon lemon drops. Dessert tart macaroon sweet roll chocolate bonbon icing pie. Pudding icing chocolate cake chocolate cake bear claw tootsie roll. Apple pie sesame snaps chupa chups jelly beans. Brownie macaroon jelly-o caramels brownie marzipan gingerbread ice cream. Danish tootsie roll chocolate cake jujubes marshmallow muffin. Bear claw muffin cupcake toffee marshmallow tart bonbon gummies biscuit.</p>
-	</div>
+		<h1>SUGGESTED PLACES TO VISIT</h1>
+		<p>Where would you like to travel to?</p>
+
+			<h3>INDIA:</h3>
+			<h3>USA:</h3>
+			<h3>MEXICO:</h3>
+			<h3>CANADA:</h3>
+			<h3>UAE:</h3>
+
+		</div>
 	</div>
 	</div>
 
@@ -260,6 +268,7 @@
 				<!-- reCAPTCHA -->
 				<div class="g-recaptcha" data-sitekey="6Lenq1sUAAAAAIX3drXmxeD6xRdyCn3NZextzU0P"></div>
 
+				<!-- Buttons -->
 				<button class="btn btn-primary" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 				<button class="btn btn-danger" type="reset"><i class="fa fa-ban"></i> Reset</button>
 			</form>
