@@ -130,7 +130,7 @@
 	<div id="aboutus" class="container-fluid bg bg-info">
 		<div class="row">
 			<div class="col m-5">
-		<h1>ABOUT US</h1>
+				<h1><strong>ABOUT US</strong></h1>
 		<p>Travel Track was created with an idea of coming up with ways for travelers to get recommendations to fuel their travel desires. Not only are they recommended places to travel to but are also given resources to help them manage their travels more easily</p>
 
 		<p>Travel track founders Edith Thakkar, and Vishal Thakkar created travel track as a way to help travelers find resources for traveling abroad such as accommodation suggestions, travel ideas, and so forth.</p>
@@ -146,14 +146,30 @@
 	<div id="travel" class="container-fluid bg bg-warning">
 		<div class="row">
 		<div class="col m-5">
-		<h1>SUGGESTED PLACES TO VISIT</h1>
+			<h1><strong>WHERE TO TRAVEL</strong></h1>
 		<p>Where would you like to travel to?</p>
 
-			<h3>EUROPE: </h3>
-			<h3>NORTH AMERICA:</h3>
-			<h3>SOUTH AMERICA:</h3>
-			<h3>ASIA:</h3>
+			<h2>INDIA:</h2>India, A multi-cultural nation surrounded by vast jungles, and large metropolis cities. It is the second most populated country in the world,
+					and one which has an estimated 1,652 throughout India.
+					This beautiful country is filled with various festivals throughout the year, is known for some of the oldest buildings worldwide,
+				and has over 33 million gods in Hinduism.
+			<p>
+			<h5>Resources</h5>
+			<a href="http://www.incredibleindia.org/" class="nav-link text-black">Toursim</a>
+			<a href="https://indianvisaonline.gov.in/visa/index.html" class="nav-link text-black">Visa</a>
+			<a href="https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/India.html" class="nav-link text-black">US Consulate advisory</a>
+			</p>
+			<h2>MEXICO:</h2>
+			<h5>Resources</h5>
+			<a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html" class="nav-link text-black">US Consulate Travel advisory</a>
 
+			<h2>CANADA:</h2>
+			<h2>UAE:</h2>
+			<h2>RESOURCES:</h2>
+			<a href="http://www.incredibleindia.org/" class="nav-link text-black">Incredible India</a>
+			<a href="https://www.visitdubai.com/en-us/" class="nav-link text-black">Visit Dubai</a>
+			<a href="https://www.visitmexico.com/en" class="nav-link text-black">Visit Mexico</a>
+			<a href="https://us-keepexploring.canada.travel/" class="nav-link text-black">Keep exploring Canada</a>
 		</div>
 	</div>
 	</div>
@@ -162,42 +178,42 @@
 		<section>
 			<div class="container">
 				<div class="col gallery-container text-center">
-					<h1>Places to Visit</h1>
-					<p class="page-description text-center">Europe-North America-South America-Asia</p>
+					<h1><strong>Places to Visit</strong></h1>
+					<p class="page-description text-center">India, Mexico, Canada, UAE</p>
 					<div class="tz-gallery">
 						<div class="row md-3">
 							<div class="col-md-6">
 								<h3>India</h3>
 								<div class="card">
-									<a class="lightbox" href="images/india.jpg">
-										<img src="images/india.jpg" alt="Europe" class="card-img-top">
+									<a class="lightbox" href="images/sunset.jpg">
+										<img src="images/sunset.jpg" alt="India" class="card-img-top">
 									</a>
 								</div>
 							</div>
 
 							<div class="col-md-6">
-								<h3>North America</h3>
+								<h3>Mexico</h3>
 								<div class="card">
-									<a class="lightbox" href="images/vector-north-america-travel-flat-format-eps-colors-49842440.jpg">
-										<img src="images/vector-north-america-travel-flat-format-eps-colors-49842440.jpg" alt="North America" class="card-img-top">
+									<a class="lightbox" href="images/mexico.jpg">
+										<img src="images/mexico.jpg" alt="Mexico" class="card-img-top">
 									</a>
 								</div>
 							</div>
 
 							<div class="col-md-6">
-								<h3>South America</h3>
+								<h3>Canada</h3>
 								<div class="card">
-									<a class="lightbox" href="images/vector-south-america-travel-latin-set-cultural-flat-color-eps-49988656.jpg">
-										<img src="images/vector-south-america-travel-latin-set-cultural-flat-color-eps-49988656.jpg" alt="South Amercica" class="card-img-top">
+									<a class="lightbox" href="images/canada.jpg">
+										<img src="images/canada.jpg" alt="Canada" class="card-img-top">
 									</a>
 								</div>
 							</div>
 
 							<div class="col-md-6">
-								<h3>Asia</h3>
+								<h3>Dubai</h3>
 								<div class="card">
-									<a class="lightbox" href="images/935380352.jpg">
-										<img src="images/935380352.jpg" alt="Asia" class="card-img-top">
+									<a class="lightbox" href="images/dubai.jpg">
+										<img src="images/dubai.jpg" alt="Dubai" class="card-img-top">
 									</a>
 								</div>
 							</div>
@@ -267,7 +283,7 @@
 				<div class="g-recaptcha" data-sitekey="6Lenq1sUAAAAAIX3drXmxeD6xRdyCn3NZextzU0P"></div>
 
 				<!-- Buttons -->
-				<button class="btn btn-primary" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+				<button class="btn btn-primary" type="send"><i class="fa fa-paper-plane"></i> Send</button>
 				<button class="btn btn-danger" type="reset"><i class="fa fa-ban"></i> Reset</button>
 			</form>
 		</div>
@@ -276,9 +292,9 @@
 </div>
 
 
-	<!--Error sucess output-->
+	<!--Error success output-->
 							<div class="row">
-								<div class="col-xs-12">
+								<div class="col-xs-10">
 									<div id="output-area"></div>
 								</div>
 							</div>

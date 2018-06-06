@@ -34,8 +34,9 @@ footer {
 .carousel-caption{
 	color: sandybrown;
 	text-shadow: 2px 2px black;
-
 }
+
+
 
 /* Small devices*/
 @media (min-width: 576px) and (max-width: 767px)
