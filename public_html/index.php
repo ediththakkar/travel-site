@@ -149,11 +149,10 @@
 		<h1>SUGGESTED PLACES TO VISIT</h1>
 		<p>Where would you like to travel to?</p>
 
-			<h3>INDIA: </h3>
-			<h3>USA:</h3>
-			<h3>MEXICO:</h3>
-			<h3>CANADA:</h3>
-			<h3>UAE:</h3>
+			<h3>EUROPE: </h3>
+			<h3>NORTH AMERICA:</h3>
+			<h3>SOUTH AMERICA:</h3>
+			<h3>ASIA:</h3>
 
 		</div>
 	</div>
@@ -166,12 +165,12 @@
 					<h1>Places to Visit</h1>
 					<p class="page-description text-center">Europe-North America-South America-Asia</p>
 					<div class="tz-gallery">
-						<div class="row mb-3">
+						<div class="row md-3">
 							<div class="col-md-6">
-								<h3>Europe</h3>
+								<h3>India</h3>
 								<div class="card">
-									<a class="lightbox" href="images/europe-travel-landmarks-vector-illustration-74315910.jpg">
-										<img src="images/europe-travel-landmarks-vector-illustration-74315910.jpg" alt="Europe" class="card-img-top">
+									<a class="lightbox" href="images/india.jpg">
+										<img src="images/india.jpg" alt="Europe" class="card-img-top">
 									</a>
 								</div>
 							</div>
@@ -215,7 +214,6 @@
 		<div class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-6">
-				<h1>Contact Us:</h1>
 				<form id="contact-form" action="php/mailer.php" method="post">
 					<div class="form-group">
 						<label for="name">Name <span class="text-danger">*</span></label>
