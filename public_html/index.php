@@ -155,21 +155,36 @@
 				and has over 33 million gods in Hinduism.
 			<p>
 			<h5>Resources</h5>
-			<a href="http://www.incredibleindia.org/" class="nav-link text-black">Toursim</a>
+			<a href="http://www.incredibleindia.org/" class="nav-link text-black">India Toursim</a>
 			<a href="https://indianvisaonline.gov.in/visa/index.html" class="nav-link text-black">Visa</a>
-			<a href="https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/India.html" class="nav-link text-black">US Consulate advisory</a>
+			<a href="https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/India.html" class="nav-link text-black">US Consulate Travel advisory</a>
 			</p>
-			<h2>MEXICO:</h2>
-			<h5>Resources</h5>
-			<a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html" class="nav-link text-black">US Consulate Travel advisory</a>
 
-			<h2>CANADA:</h2>
-			<h2>UAE:</h2>
-			<h2>RESOURCES:</h2>
-			<a href="http://www.incredibleindia.org/" class="nav-link text-black">Incredible India</a>
-			<a href="https://www.visitdubai.com/en-us/" class="nav-link text-black">Visit Dubai</a>
-			<a href="https://www.visitmexico.com/en" class="nav-link text-black">Visit Mexico</a>
-			<a href="https://us-keepexploring.canada.travel/" class="nav-link text-black">Keep exploring Canada</a>
+			<h2>MEXICO:</h2> Mexico a state full of rich culture, marvelous beaches, Live music, and some of the best spicy food around. It's native language is spanish.
+			Before traveling abroad you can take a few spanish lessons and be on your way to being your own interpreter. The culture is very welcoming providing you warmth and comfort where ever you may go.
+			<p>
+			<h5>Resources</h5>
+			<a href="https://www.visitmexico.com/en" class="nav-link text-black">Mexico Tourism</a>
+			<a href="https://consulmex.sre.gob.mx/sanfrancisco/index.php/visas-traveling-to-mexico" class="nav-link text-black">Visa</a>
+			<a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html" class="nav-link text-black">US Consulate Travel advisory</a>
+			</p>
+
+			<h2>CANADA:</h2> Canada a country located just above the United States. It has over ten provinces, and is the world's second largest country. Majority of Canada is full of vast forests, although it holds amazing large metro cities.
+			<P>
+			<h5>Resources</h5>
+			<a href="https://us-keepexploring.canada.travel/" class="nav-link text-black">Canada Tourism</a>
+			<a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html" class="nav-link text-black">Visa</a>
+			<a href="https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Canada.html" class="nav-link">US Consulate Travel advisory</a>
+			</p>
+
+
+			<h2>UAE:</h2> Dubai the largest city in UAE. Known for the tallest building in the world the Burj Khalifa.
+			<p>
+			<h5>Resources</h5>
+			<a href="https://www.visitdubai.com/en-us/" class="nav-link text-black">Dubai Tourism</a>
+			<a href="https://government.ae/en/information-and-services" class="nav-link text-black">Visa</a>
+			<a href="https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/UnitedArabEmirates.html" class="nav-link text-black">US Consulate Travel advisory</a>
+			</p>
 		</div>
 	</div>
 	</div>
@@ -227,6 +242,9 @@
 
 	<!--Contact Us section-->
 	<div id="contactus" class="container-fluid bg-info text-light">
+		<div id="contactus" class="text-center"
+		<h1>Contact Us</h1>
+	</div>
 		<div class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-6">
