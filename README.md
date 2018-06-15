@@ -38,3 +38,34 @@ Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/p
 
 #### Milestone 2a Updated Feedback
 Thanks for making the corrections to your HTML - it's looking much better! Your Milestone 2a now passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+### PWP Final Feedback
+Nice work on PWP - this is a nice job for a "first website". Keep challenging yourself and keep practicing! You've got great skills to build up from.
+
+*Code Base*: Overall your code looks good - nice work. It looks like there is an extra closing `<div>` on line 125... be careful about these - they can cause issues sometimes. I would remove any CSS code that is not serving any function - this will keep your codebase clean. I would remove the class `nav-link` from your links that are NOT inside a navbar (see the "Resources" links). This Bootstrap class changes the display of the `<a>` tags from `inline` to `block`- and that's not what you want here.
+
+*Git Commits*: Nice work with version control. Your Git/GitHub history is good. 
+
+*Mobile-First Responsiveness*: I've tested your page using devtools, Chrome on Linux, and Chrome & Firefox on Android, and your layout responds well across these platforms.
+
+*Design, Content, &amp; Overall Presentation*: You've got a good start here, nice work. There is plenty of room for refinement with the Design and layout that would give it more of a professional polish. The difference can oftentimes come down to subtle detail and consistency. Here are a few thoughts: 
+- I think it would make for a nicer UX to include carousel arrows so a user can manually cycle through the images.
+- Consider organizing text content into columns for easier reading.
+- Try using a slideshow/lightbox feature for the "places to visit" images instead of just opening them in the same tab. Something like http://fancyapps.com/fancybox/3/ might work well.
+- Consider a nice typeface for your headings?
+- The padding between the page sections is a little inconsistent - polishing this, and adding more negative space throughout would give the appearace a bit more polish.
+- The section headings need a bit more padding on top to compensate for the fixed navbar - this is apparent when the links are clicked.
+
+These are some pretty basic observations to start. There are a lot of things you can play with - have fun with it!
+ 
+*Contact Form*: Your form appears to work correctly from my end. Did you get my test message?
+
+Nice work. Your PWP passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Your cumulative PWP score including all Milestones is 30/40 points (75%).
+
+- Milestone 1 - 20%: Tier II 20(0.2) = 4
+- Milestone 2a - 20%: Tier II 20(0.2) = 4
+- Milestone 2b - 10%: Tier II 20(0.1) = 2
+- Milestone 3 - 50%: Tier III 30(0.5) = 20
+
+#### Suggestions
+- We didn't discuss favicons, but you might want to consider adding one. Have a look at this tool which helps render multiple versions for cross-platform  support: https://realfavicongenerator.net/
